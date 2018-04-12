@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)http://student.task.web.ptteng.com/gonghai/JS02/task2-2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>task2-2</title>
+    <link rel="stylesheet" type="text/css" href="text.css">
+    <link rel="stylesheet" type="text/css" href="2-2.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+</head>
+<body>
+    <div class="header"><a href=""><img src="./img/back.png"></a></div>
+    <div class="body-wrapper">
+        <!--button-->
+        <div class="content-button container">
+            <div>玩家配比</div>
+        </div>
+        <!--显示配比结果区域-->
+        <div class="content-main container">
+            <div class="content-killer">
+                <img src="./img/05.png">杀手<span id="killer" style="color: red"></span>人
+            </div>
+            <div class="content-water">
+                <img src="./img/04.png">平民<span id="water" style="color: red"></span>人
+            </div>
+        </div>
+        <!--输入玩家数量区域-->
+        <div class="content-number container">
+            <div>请输入玩家数量<input id="number" oninput="getNumberFunction()" onkeyup="value=value.replace(/[^\d]/g,&#39;&#39;)">
+
+                <span class="content-number-pink">玩家数量为4-18</span></div>
+            </div>
+            <!--发牌区域-->
+            <div class="content-footer container">
+                <a><div class="content-footer-button" onclick="testNumberFunction()">去发牌</div></a>
+            </div>
+        </div>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script src="2-2.js"></script>
+
+
+    </body></html>
