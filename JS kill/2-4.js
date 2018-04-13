@@ -1,7 +1,3 @@
-/**
- * Created by Administrator on 2017/7/12.
- */
-
 str1=sessionStorage.playernum;
 str2=sessionStorage.acnum;
 str3=sessionStorage.ad;
@@ -10,10 +6,6 @@ playernum=JSON.parse(str1);//玩家数
 acnum=JSON.parse(str2);/*杀手*/
 ad=JSON.parse(str3);/*water*/
 var newPeople= JSON.parse(sessionStorage.getItem("str4"));
-
-/*AAAAAAAAAA
-AAAAAAAAAA
-AAAAAAAAAA*/
 
 var deadArr=[];
 sessionStorage.setItem("deadlist",JSON.stringify(deadArr));

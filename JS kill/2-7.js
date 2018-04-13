@@ -1,6 +1,3 @@
-/**
- * Created by Administrator on 2017/7/26.
- */
 str1=sessionStorage.playernum;
 str2=sessionStorage.acnum;
 str3=sessionStorage.ad;

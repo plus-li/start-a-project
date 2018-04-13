@@ -1,14 +1,3 @@
-/**
- * Created by Administrator on 2017/7/10.
- */
-/**
- * Created by Administrator on 2017/7/8.
- */
-
-/*var player=document.getElementById("number").value;
- var playernum=parseInt(player);*/
-
-
 
 function getNumberFunction(){
     var player=document.getElementById("number").value;
@@ -50,6 +39,8 @@ function testNumberFunction(){
     var playernum=parseInt(player);
     if(playernum>=4&&playernum<=18){
         window.location.href="2-3.html";
+        console.log(window.location);
+        console.log( window.location.href);
     }
     else{
         alert("请输入正确的人数")

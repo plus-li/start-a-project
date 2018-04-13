@@ -1,10 +1,3 @@
-/**
- * Created by Administrator on 2017/7/18.
- */
-/**
- * Created by Administrator on 2017/7/12.
- */
-
 str1=sessionStorage.playernum;
 str2=sessionStorage.acnum;
 str3=sessionStorage.ad;
@@ -21,10 +14,6 @@ var date=sessionStorage.getItem("abc");
 
 var deadArr=JSON.parse(sessionStorage.getItem("deadlist"));
 
-/*AAAAAAAAA
-AAAAAAAAA
-AAAAAAAAA*/
-/*var newPeople=JSON.parse(sessionStorage.getItem("str4"));*/
 
 
 var list = new Array(playernum, acnum, ad);
