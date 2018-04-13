@@ -71,10 +71,10 @@ if (x<2*playernum-1){
 }
 
 
-$(".left").click(function() {
-    sessionStorage.clear();
-    location.href="task2-2.html";
-})
+// $(".left").click(function() {
+//     sessionStorage.clear();
+//     location.href="task2-2.html";
+// })
 
 /*
 AAAAAAAAAAAA

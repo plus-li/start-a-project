@@ -38,7 +38,7 @@ function testNumberFunction(){
     var player=document.getElementById("number").value;
     var playernum=parseInt(player);
     if(playernum>=4&&playernum<=18){
-        window.location.href="2-3.html";
+        window.location.href="./2-3.html";
         console.log(window.location);
         console.log( window.location.href);
     }
